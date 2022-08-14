@@ -5,7 +5,7 @@ clear;
 %numbits = 100000;
 numbits = input("enter number of bits in the signal:");
 %mod_type = 4; %modulation scheme
-mod_type = input("enter modulation type (1 for BPSK, 2 for QPSK, 4 for 16QAM:");
+mod_type = input("enter modulation type (1 for BPSK, 2 for QPSK, 4 for 16QAM):");
 numsymbols = numbits/mod_type;
 %R = 5; %number of repetitions for the Repeater/encoder
 R = input("enter number of repetitions to occur in the encoder/repeater (must be odd number):");
